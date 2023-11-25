@@ -1,0 +1,461 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Muli:wght@400;700;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Muli", sans-serif;
+  color: #113f67;
+/*   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+  line-height:1.5;
+
+  background-color: #e7eaf6;
+  position: relative;
+ font-size:16px;
+}
+
+.navbar {
+  background-color:#fbf2d5;
+  overflow:hidden;
+  width:100%;
+  position:fixed;
+  top:0;
+  left:0;
+  
+  
+}
+
+.navbar a {
+  text-decoration: none;
+  color:#000;
+  display:inline-block;
+  width:6.25rem;
+  height:3.4rem;
+  text-align:center;
+  line-height:3.4rem;
+ font-family: inherit;
+}
+
+#logo {
+   width: 7.5rem;
+   background-color: #8ed2c9;
+   font-weight: bold;
+}
+
+#about {
+   position: absolute;
+   top: 0;
+   right: 0;
+}
+ 
+.hero{
+  margin-top:3.4rem;
+  padding:3rem;
+   background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(https://thiswayup.org.au/wp-content/uploads/elementor/thumbs/Mental-Fitness-improve-health-mind-p649wf8y0rsvtymw8jlzf66xj5r6nj76ykdbbspurk.jpg);
+  height: 100vh;
+  width:100vw;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position:center center;
+  background-attachment: fixed;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+   text-align: center;
+  backgroub-color:#8A733C;
+}
+
+.hero-text{
+  color: #fff;
+  text-transform:uppercase;
+}
+
+.hero-text h1{
+   font-size: 4em;
+   margin-top: 0;
+   margin-bottom: 0.3em;
+}
+
+.hero-text h2{
+   font-size: 2em;
+}
+
+.container{
+  width: 50rem; 
+  margin: 6.25rem auto;
+}
+
+section{
+  margin-bottom:6.75rem;
+}
+
+
+h2{
+  margin-bottom:1.5rem;
+}
+
+h3{
+margin-bottom:1.2rem;
+}
+
+li{
+  margin-bottom:1rem;
+}
+
+#daily-quote{
+  background-color: #fbf2d5;
+  padding:2.5rem 2.5rem;
+  border-radius:8px;
+  text-align:center;
+  width:25rem;
+  margin:0 auto;
+  box-shadow: 0 3px 6px #4142448d, 0 3px 6px #4142448d;
+  margin-bottom:5.2rem;
+}
+
+.quote-title{
+  margin-bottom:1.25rem;
+}
+
+ #quote{
+  margin-bottom:0.7rem;
+  font-weight: 600;
+}
+
+#author{
+  font-weight: 100;
+  font-style: italic;
+  margin-bottom:1.3rem;
+}
+
+.btn{
+  background-color: #8ed2c9;
+  border:none;
+  padding:0.6rem 2.5rem;
+  font-family: inherit;
+  font-weight: bold;
+  border-radius: 8px;
+  font-size:1rem;
+  cursor: pointer;
+  
+}
+
+.btn:hover{
+  scale:1.05;
+}
+
+.main-title{
+  text-align:center;
+}
+
+#pain-scale{
+/*   display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 8%; */
+}
+
+.pain-scale-img{
+  width:100%;
+}
+
+.self-assess-title{
+  text-align:center;
+}
+
+#self-assess p
+{
+  margin-bottom:1.5rem;
+}
+
+.scale input {
+
+  width:60%;
+  margin: 1.4rem;
+
+}
+
+.icon{
+  margin:0.5rem 0.5rem;
+  cursor: pointer;
+}
+
+.icon:hover{
+  scale:1.2;
+}
+
+.rating-container{
+ display: grid;
+ grid-template-rows: 1fr auto;
+  justify-content: center;
+    align-items: center;
+ row-gap: 8%;
+ margin-bottom:3.5rem;
+  padding:6.5rem;
+  border-radius:8px;
+  background-color:#8ed2c9; 
+  background-color: #fbf2d5; 
+  box-shadow: 0 3px 6px #4142448d, 0 3px 6px #4142448d;
+ 
+} 
+
+.rating{
+  display:flex;
+  text-align:center;
+  margin-bottom:1.5rem;
+  
+}
+
+.fa-solid{
+  font-size:2.4rem;
+   
+}
+
+.icon.fa-solid{
+  font-size:2.75rem;
+  border: solid 2px #233142;
+  border-radius:50%;
+}
+
+.feedback{
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  
+  
+}
+
+.placeholder-range{
+  font-weight:bold;
+  font-size:1.5rem;
+}
+
+.feedback-container{
+  text-align:center;
+  background-color:;
+  
+/*   border-radius:8px;
+  box-shadow: 0px -1px 25px 7px rgba(63, 64, 64, 0.4); */
+}
+
+.techniques-title, .help-header, .about{
+  text-align:center;
+ 
+}
+
+.help-section h2{
+   margin-bottom:2.74rem;
+}
+
+.about{
+  margin:2.75rem 0;
+}
+
+#about-section p
+{
+  margin-bottom:1.5rem;
+}
+
+
+#help-section {
+  width: 50rem;
+ 
+}
+
+.help {
+  margin: 1.25rem 0;
+  border: 1px solid #113f6787;
+  border-radius: 8px;
+  padding: 2rem;
+  position: relative;
+  overflow: hidden;
+  transition: 0.3s ease;
+}
+
+.help.active {
+  background-color: #fff;
+  box-shadow: 0 3px 6px #4142448d, 0 3px 6px #4142448d;
+}
+
+.help-title {
+  margin: 0 2rem 0 0;
+}
+
+.help-text {
+  display: none;
+  margin: 2rem 0 0;
+}
+
+.help.active .help-text {
+  display: block;
+}
+
+.help.active::before,
+.help.active::after {
+  content: '\f075';
+  font-family: 'Font Awesome 5 Free';
+  color: #5ff76e;
+  font-size: 7rem;
+  opacity: 0.3;
+  z-index: 0;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.help.active::before {
+  top: -20px;
+  left: 70px;
+  color: #1e69e9;
+}
+
+.help-toggle {
+  background-color: transparent;
+  border: 0;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  padding: 0;
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  height: 30px;
+  width: 30px;
+}
+
+.help-toggle:focus {
+  outline: 0;
+}
+
+.help.active .help-toggle {
+  background-color: #bbe4e9;
+}
+
+.help-toggle .fa-times {
+  display: none;
+}
+
+.help.active .help-toggle .fa-times {
+  color: #9f9c9c;
+  display: block;
+}
+
+.help.active .help-toggle .fa-chevron-down{
+  display: none;
+}
+
+.help-text{
+  margin: 1rem 0;
+}
+
+.helpers{
+  margin-top:1.25rem;
+}
+
+.about{
+  margin-top:8rem;
+}
+
+#footer{
+
+}
+
+.footer{
+  color:#fff;
+  font-weight:bold;
+  background-color:#003;
+  padding:3.5rem;
+  text-align:center;
+  
+}
+
+.footer .icon{
+  margin-right:1.5rem;
+}
+
+
+@media (max-width: 390px) {
+  .hero-text h1{
+    font-size:2em;
+  }
+  
+  .hero-text h2{
+    font-size:1em;
+  }
+  
+  .hero{
+    margin-top: 3.4rem;
+    padding: 3rem;
+    height: auto;
+    width: auto;
+   background-color: #8A733C;
+  }
+
+
+  .container {
+    width: 80%;
+    margin: 2rem auto;
+  }
+
+  #daily-quote {
+    width: 95%;
+    margin-bottom: 3rem;
+  }
+
+  .rating-container {
+ margin:44px 0;
+    width: 95%;
+    row-gap: 2px;
+     padding:10px;
+    display:grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: start;
+    gap: 1rem;
+  }
+
+  #help-section {
+    width: 90%;
+  }
+  
+  .fa-solid{
+  font-size:1.2rem;
+    margin:4px;
+   
+}
+  .icon.fa-solid{
+  font-size:1.5rem;
+    margin:4px;
+    border: solid 2px #233142;
+    border-radius: 50%;
+
+  }
+  
+  .feedback-container{
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .rating{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+    
+  .placeholder-text{
+
+  }
+  .icon-ten{
+    display:flex;
+    flex-direction:row;
+  }
+  
+}
